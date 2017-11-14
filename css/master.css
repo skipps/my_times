@@ -3,6 +3,9 @@
 body{
   margin: 0;
   border: 0;
+  display: flex;
+  display: inline-block;
+  border: 1 solid black;
 }
 
 header{
@@ -20,6 +23,7 @@ header .logo{
   display: flex;
   align-items: center;
   flex-basis: 400px;
+  border: 1 solid black;
 }
 
 header nav{
@@ -30,35 +34,31 @@ header nav{
 header a{
   color: black;
 }
+
 .column{
-  width: 100%;
   display: flex;
-  display: inline-block;
-  border: 1px solid black;
 }
 
-.column .large{
+.column.large{
   width: 630px;
   display: flex;
   border: 1px solid black;
   display: block;
+  border: 1 solid black;
 }
 
-.column .medium{
+.column.medium{
   width: 300px;
   display: flex;
   border: 1px solid black;
   display: block;
+  border: 1 solid black;
 }
 
-.colum .small{
+.column.small{
   width: 240px;
   display: flex;
   border: 1px solid black;
   display: block;
-}
-
-.headline{
-  border: 1px solid black;
-  flex-shrink: 1;
+  border: 1 solid black;
 }
