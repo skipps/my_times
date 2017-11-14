@@ -15,10 +15,69 @@ header{
   justify-content: space-between;
 }
 
-header span{
+header .logo{
   color: MediumAquaMarine;
+  display: flex;
+  align-items: center;
+  flex-basis: 400px;
 }
 
-header li{
+header nav{
   display: inline-block;
+  flex-basis: 400px;
+}
+
+header a{
+  color: black;
+}
+.colum{
+  display: flex;
+  justify-content: space-between;
+}
+
+.column .large{
+  width: 630px;
+  display: flex;
+  border: 1px solid black;
+  display: block;
+  align-items: flex-start;
+}
+.large{
+  display: flex;
+  flex-direction: column;
+}
+
+.lbox1{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.lbox2{
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.lbox3{
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.headline{
+  border: 1px solid black;
+  flex-shrink: 1;
+}
+
+.column .meduim{
+  width: 300px;
+  display: flex;
+  border: 1px solid black;
+  display: block;
+  align-items: flex-start;
+}
+
+.colum n.small{
+  width: 240px;
 }
