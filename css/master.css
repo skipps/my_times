@@ -3,9 +3,6 @@
 body{
   margin: 0;
   border: 0;
-  display: flex;
-  display: inline-block;
-  border: 1 solid black;
 }
 
 header{
@@ -26,8 +23,7 @@ header .logo{
   border: 1 solid black;
 }
 
-header nav{
-  display: inline-block;
+header nav{display: inline-block;
   flex-basis: 400px;
 }
 
@@ -37,6 +33,8 @@ header a{
 
 .column{
   display: flex;
+  display: inline-block;
+  border: 1 solid black;
 }
 
 .column.large{
@@ -61,4 +59,8 @@ header a{
   border: 1px solid black;
   display: block;
   border: 1 solid black;
+}
+
+.headline{
+  border: 1px solid black;
 }
